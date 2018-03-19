@@ -1,0 +1,195 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: "Nanum Gothic", sans-serif;
+ font-style: normal;
+ font-weight: 250;
+}
+
+html {
+    background: url(wallpaper.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Rajdhani', sans-serif;
+    cursor: default;
+}
+
+.main_title {
+    font-family: 'Exo', sans-serif;
+    font-size: 30px;
+    margin-top: 14px;
+    color: #333;
+    text-align: left;
+    padding-left: 15px;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 5px;
+    width: 90%;
+    border-bottom: 2px solid rgb(81, 81, 81);
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+ul {
+    /*margin-top : 10px;*/
+    /*font-family: 'Jeju Gothic', sans-serif;*/
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.main_span {
+    margin-top: 10px;
+    margin-left: 21px;
+}
+
+a{
+    text-decoration: none !important;
+    color: rgb(165, 165, 165);
+    width: 190px;
+    display: block;
+    padding-left:20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: rgb(81, 81, 81);
+    color: white;
+}
+
+.border {
+    margin-left: 5%;
+}
+
+.main_span.ipaddr {
+    margin-top: 7px;
+    width: 150px;
+    color: black;
+    background-color: rgb(81, 81, 81);
+    border-radius: 3px;
+    padding: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#clock{
+    top: 11px;
+    right: 113px;
+    position: fixed;
+    font-size: 18px;
+}
+
+button{
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+.logout{
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    font-size: 15px;
+    background-color: rgba(51,51,51,0.3);
+    border-radius: 3px;
+    border: 1.3px solid white;
+    padding: 5px 10px;
+    color: white;
+}
+
+.logout:hover{
+    background-color: rgb(51,51,51);
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    height: 64px;
+    border-bottom: 2px solid #333;
+    background-color: rgba(200, 200, 200, 0.3);
+    z-index: 1;
+}
+
+.header.side {
+    width: 210px;
+    flex-basis: 210px;
+    background-color: rgba(51, 51, 51, 0.7);
+}
+
+#content {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    position: fixed;
+    width: 210px;
+    flex-basis: 210px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    left: 0px;
+    background-color: #333;
+    z-index:1;
+    /*flex-shrink: 0;*/
+}
+
+.sidebar.header {
+    align-items: center;
+    top: 66px;
+    height: 150px;
+    order: -1;
+}
+
+.sidebar.body {
+    top: 216px;
+    height: 100%;
+    order: 0;
+}
+
+#main {
+	position: absolute;
+    left: 210px;
+    top: 66px;
+    padding-right:14px;
+}
+
+#ad {
+    /*position: absolute;
+    right: 0px;
+    top: 66px;
+    background-color: white;
+    width: 100px;
+    height: 100%;*/
+}
+
+.profile {
+    /*border: 3px solid green;*/
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    padding: 9px;
+    border-radius: 50%;
+    background-color: white;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.container{
+	border: black solid;
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+.absolute1{
+	position: absolute;
+	top: 0px;
+	left:10px;
+}
+
+.absolute2{
+	position: absolute;
+	top: 0px;
+	left:810px;	
+}

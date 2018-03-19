@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.c3-axis-y-label{
+   fill: blue;
+   font-size:14px;
+}
+.c3-axis-y2-label{
+    font-size:14px;
+    fill:orange;
+}
+
+.c3-axis-y .tick{
+	font-size:14px;
+	fill:blue;
+}
+
+.c3-axis-y2 .tick{
+	font-size:14px;
+	fill:orange;
+}
