@@ -12,3 +12,6 @@ remote aircontroll based Arduino
 
 # demo*.mp4
 : demonstration 
+<br>
+<img src="https://user-images.githubusercontent.com/33401047/37578013-350338b0-2b79-11e8-8195-87fc8d94e6a8.png" width="500"/>
+esp8266(wifi module), HC-06(bluetooth module)
